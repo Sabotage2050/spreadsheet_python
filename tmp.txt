@@ -1,3 +1,0 @@
-sheet["A1"] = "hello, world"
->>> sheet["A1"].value
-wb.save(")
