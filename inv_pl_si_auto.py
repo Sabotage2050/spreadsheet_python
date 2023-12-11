@@ -5,18 +5,20 @@ import numpy
 import datetime
 import re
 
+# 各書類の必要項目を指定する
 st_name = ""
-
 pi_file = ""
 inv_file = ""
 pl_file = ""
 si_file = ""
-
 sis_number = ""
 bookingno = ""
 ship = ""
 voy = ""
 pl_weight_m3_file = ""
+
+# ここで取り出すフォークリフトのシャーシ番号を指定する
+chassis_list = [""]
 
 forklift_csv_list = [
     "battery_forklift",
@@ -25,8 +27,6 @@ forklift_csv_list = [
     "shovelloader_forklift",
 ]
 
-# ここで取り出すフォークリフトのシャーシ番号を指定する
-chassis_list = ["64359", "F14F-11468", "23199", "26038"]
 data_list = []
 
 for i, forklift in enumerate(forklift_csv_list):

@@ -1,2 +1,14 @@
 .env
+sqlite_c_t
+stocklist
+SHIPPING_INSTRUCTION
+pl_weight_m3
+PL
+PI
+INV
+fobprice
+csv
+.DS_Store
+
+
 
